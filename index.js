@@ -7,4 +7,4 @@ bot.on('ready', () => {
     console.log('The Wyvern is here!');
 })
 
-bot.login(token);
+bot.login(process.env.token);
